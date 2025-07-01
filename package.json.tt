@@ -2,10 +2,24 @@
   "name": "<%= config[:name] %>",
   "version": "1.0.0",
   "description": "TODO: Describe your project",
-  "main": "index.js",
+  "files":["dist"],
+  "main":"./dist/test.umd.js",
+  "module":"./dist/test.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/test.es.js",
+      "require": "./dist/test.umd.js"
+    }
+  },
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "copyright"
+  "license": "copyright",
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
 }
