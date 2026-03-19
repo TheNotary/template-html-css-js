@@ -1,7 +1,7 @@
-# Simple Vanilla JS, CSS, HTML Template
+# Foo::Bar
 
-This is a project template that can be used with bundlegem to make brand new HTML/CSS/JS project.  It's meant to be just the basics.  Chat bots kinda obsolete this work maybe...
- 
-Clone it into `~/.bundlegem/templates` and you're ready to rock. 
+TODO: Describe your project
 
-Make sure you installed bundlegem, `gem install bundlegem` :)
+## Installation
+
+You can self-host this code by `python -m SimpleHTTPServer 8000`, but just use `open index.html` or if you want to use the VS Code debugger, press the play button in VS Code.
